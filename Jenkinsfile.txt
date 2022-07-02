@@ -116,7 +116,7 @@ pipeline {
 		stage('BDD Test') {
             steps {
 				//Change git url below as per your forked github repository URL
-				git url: 'https://github.com/umangsaltuniv/EMSystemTests_BDD.git'
+				git url: 'https://github.com/anamolina07/EMSystemTests_BDD.git'
             	sh 'mvn -Dtest=TestRunner test'
             }
         }
